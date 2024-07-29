@@ -15,17 +15,18 @@ env:
       {
         "NAME":    "ruff",
         "VERSION": [
-            "0.5"
+            "0.5",
+            "0.4",
+            "0.3",
+            "0.2",
+            "0.1"
         ],
         "FLAVOUR": ["latest"],
-        "ARCH":    ["linux/amd64"],
-        "FILE":  ["py312"]
+        "ARCH":    ["linux/amd64", "linux/386", "linux/arm64", "linux/arm64/v8", "linux/arm/v7", "linux/arm/v6", "linux/ppc64le", "linux/s390x"],
+        "FILE":    ["py38", "py39", "py310", "py311", "py312"]
       }
     ]
 
-#        "FLAVOUR": ["latest"],
-#        "ARCH":    ["linux/amd64", "linux/386", "linux/arm64", "linux/arm/v7", "linux/arm/v6", "linux/ppc64le", "linux/s390x"],
-#        "FILE":  ["py38", "py39", "py310", "py311", "py312"]
 # -------------------------------------------------------------------------------------------------
 # When to run
 # -------------------------------------------------------------------------------------------------
