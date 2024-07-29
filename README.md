@@ -42,7 +42,7 @@
 
 View **[Dockerfiles](https://github.com/Magnati/docker-ruff/blob/main/Dockerfiles/)** on GitHub.
 
-**Available ruff versions:** `0.5`, `0.4`, `0.3`, `0.2`, `0.1`
+**Available ruff versions:** `0.5`, `0.4`, `0.3`, `0.2`
 
 **Available Architectures:**  `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x`
 
