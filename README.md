@@ -42,9 +42,9 @@
 
 View **[Dockerfiles](https://github.com/Magnati/docker-ruff/blob/main/Dockerfiles/)** on GitHub.
 
-**Available Pylint major versions:** `2`, `3`
+**Available ruff versions:** `0.5`, `0.4`, `0.3`, `0.2`, `0.1`
 
-**Available Architectures:**  `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x`
+**Available Architectures:**  `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x`
 
 **Supported Python versions:** `3.8`, `3.9`, `3.10`, `3.11`, `3.12`
 
@@ -64,20 +64,20 @@ The following Docker image tags are rolling releases and are built and updated e
 
 [![weekly](https://github.com/Magnati/docker-ruff/workflows/weekly/badge.svg)](https://github.com/Magnati/docker-ruff/actions?query=workflow%3Aweekly)
 
-| Docker Tag | Git Ref   | ruff         | python | Available Architectures                                          |
-|------------|-----------|--------------|--------|------------------------------------------------------------------|
-| `5-py38`   | main    | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py39`   | main    | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py310`  | main    | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py311`  | main    | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py312`  | main    | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py38`   | main    | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py39`   | main    | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py310`  | main    | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py311`  | main    | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py312`  | main    | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `3-py38`   | main    | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| ...        | main    | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| Docker Tag             | Git Ref   | ruff         | python | Available Architectures                                          |
+|------------------------|-----------|--------------|--------|------------------------------------------------------------------|
+| `0.5-py38`             | main    | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py39`             | main    | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py310`            | main    | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py311`            | main    | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py312`            | main    | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py38`             | main    | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py39`             | main    | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py310`            | main    | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py311`            | main    | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py312`            | main    | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.3-py38`             | main    | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| ...(I believe in you)  | main    | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
 
 #### Point in time releases
 
@@ -86,20 +86,20 @@ The following Docker image tags are built once and can be used for reproducible 
 [![build](https://github.com/Magnati/docker-ruff/workflows/build/badge.svg)](https://github.com/Magnati/docker-ruff/actions?query=workflow%3Abuild)
 
 
-| Docker Tag | Git Ref   | ruff         | python | Available Architectures                                          |
-|------------|-----------|--------------|--------|------------------------------------------------------------------|
-| `5-py38-<tag>`   | tag: <tag>     | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py39-<tag>`   | tag: <tag>     | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py310-<tag>`  | tag: <tag>     | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py311-<tag>`  | tag: <tag>     | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py312-<tag>`  | tag: <tag>     | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py38-<tag>`   | tag: <tag>     | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py39-<tag>`   | tag: <tag>     | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py310-<tag>`  | tag: <tag>     | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py311-<tag>`  | tag: <tag>     | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py312-<tag>`  | tag: <tag>     | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `3-py38-<tag>`   | tag: <tag>     | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| ...        | tag: <tag>     | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| Docker Tag            | Git Ref   | ruff         | python | Available Architectures                                          |
+|-----------------------|-----------|--------------|--------|------------------------------------------------------------------|
+| `0.5-py38-<tag>`      | tag: <tag>     | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py39-<tag>`      | tag: <tag>     | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py310-<tag>`     | tag: <tag>     | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py311-<tag>`     | tag: <tag>     | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py312-<tag>`     | tag: <tag>     | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py38-<tag>`      | tag: <tag>     | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py39-<tag>`      | tag: <tag>     | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py310-<tag>`     | tag: <tag>     | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py311-<tag>`     | tag: <tag>     | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.4-py312-<tag>`     | tag: <tag>     | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.3-py38-<tag>`      | tag: <tag>     | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| ...(I believe in you) | tag: <tag>     | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
 
 
 > Where `<tag>` refers to the chosen git tag from this repository.
@@ -142,7 +142,7 @@ linter below for reproducible local or remote CI tests:
 | [phpcs][pcs-git-lnk]             | [![pcs-hub-img]][pcs-hub-lnk]         | PHP        | PHP Code Sniffer                                             |
 | [phplint][plint-git-lnk]         | [![plint-hub-img]][plint-hub-lnk]     | PHP        | PHP Code Linter **<sup>[1]</sup>**                           |
 | [php-cs-fixer][pcsf-git-lnk]     | [![pcsf-hub-img]][pcsf-hub-lnk]       | PHP        | PHP Coding Standards Fixer                                   |
-| [bandit][bandit-git-lnk]         | [![bandit-hub-img]][bandit-hub-lnk]   | Python     | A security linter from PyCQA                                 
+| [bandit][bandit-git-lnk]         | [![bandit-hub-img]][bandit-hub-lnk]   | Python     | A security linter from PyCQA
 | [black][black-git-lnk]           | [![black-hub-img]][black-hub-lnk]     | Python     | The uncompromising Python code formatter                     |
 | [mypy][mypy-git-lnk]             | [![mypy-hub-img]][mypy-hub-lnk]       | Python     | Static source code analysis                                  |
 | [pycodestyle][pycs-git-lnk]      | [![pycs-hub-img]][pycs-hub-lnk]       | Python     | Python style guide checker                                   |
