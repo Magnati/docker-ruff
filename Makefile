@@ -142,7 +142,7 @@ _test-run:
 	@echo "------------------------------------------------------------"
 	@echo "- Testing pep8 standard"
 	@echo "------------------------------------------------------------"
-	@if ! docker run --rm --platform $(ARCH) -v $(CURRENT_DIR)/tests:/data $(IMAGE):$(DOCKER_TAG) test.py ; then \
+	@if ! docker run --rm --platform $(ARCH) -v $(CURRENT_DIR)/tests:/data $(IMAGE):$(DOCKER_TAG) check . ; then \
 		echo "Failed"; \
 		exit 1; \
 	fi; \
