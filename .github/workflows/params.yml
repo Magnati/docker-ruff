@@ -15,14 +15,10 @@ env:
       {
         "NAME":    "ruff",
         "VERSION": [
-            "5",
-            "4",
-            "3",
-            "2",
-            "1"
+            "0.5"
         ],
         "FLAVOUR": ["latest"],
-        "ARCH":    ["linux/amd64", "linux/386", "linux/arm64", "linux/arm/v7", "linux/arm/v6", "linux/arm/v8"],
+        "ARCH":    ["linux/amd64"],
         "FILE":  ["py312"]
       }
     ]
