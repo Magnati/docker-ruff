@@ -17,8 +17,7 @@ env:
         "VERSION": [
             "0.5",
             "0.4",
-            "0.3",
-            "0.2"
+            "0.3"
         ],
         "FLAVOUR": ["latest"],
         "ARCH":    ["linux/amd64", "linux/386", "linux/arm64", "linux/arm64/v8", "linux/arm/v7", "linux/arm/v6"],
