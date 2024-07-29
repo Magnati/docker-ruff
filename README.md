@@ -44,7 +44,7 @@ View **[Dockerfiles](https://github.com/Magnati/docker-ruff/blob/main/Dockerfile
 
 **Available ruff versions:** `0.5`, `0.4`, `0.3`, `0.2`
 
-**Available Architectures:**  `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x`
+**Available Architectures:**  `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`
 
 **Supported Python versions:** `3.8`, `3.9`, `3.10`, `3.11`, `3.12`
 
@@ -66,18 +66,18 @@ The following Docker image tags are rolling releases and are built and updated e
 
 | Docker Tag             | Git Ref   | ruff         | python | Available Architectures                                          |
 |------------------------|-----------|--------------|--------|------------------------------------------------------------------|
-| `0.5-py38`             | main    | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.5-py39`             | main    | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.5-py310`            | main    | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.5-py311`            | main    | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.5-py312`            | main    | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py38`             | main    | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py39`             | main    | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py310`            | main    | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py311`            | main    | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py312`            | main    | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.3-py38`             | main    | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| ...(I believe in you)  | main    | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py38`             | main    | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.5-py39`             | main    | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.5-py310`            | main    | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.5-py311`            | main    | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.5-py312`            | main    | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py38`             | main    | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py39`             | main    | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py310`            | main    | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py311`            | main    | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py312`            | main    | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.3-py38`             | main    | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| ...(I believe in you)  | main    | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
 
 #### Point in time releases
 
@@ -88,18 +88,18 @@ The following Docker image tags are built once and can be used for reproducible 
 
 | Docker Tag            | Git Ref   | ruff         | python | Available Architectures                                          |
 |-----------------------|-----------|--------------|--------|------------------------------------------------------------------|
-| `0.5-py38-<tag>`      | tag: <tag>     | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.5-py39-<tag>`      | tag: <tag>     | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.5-py310-<tag>`     | tag: <tag>     | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.5-py311-<tag>`     | tag: <tag>     | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.5-py312-<tag>`     | tag: <tag>     | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py38-<tag>`      | tag: <tag>     | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py39-<tag>`      | tag: <tag>     | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py310-<tag>`     | tag: <tag>     | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py311-<tag>`     | tag: <tag>     | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.4-py312-<tag>`     | tag: <tag>     | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `0.3-py38-<tag>`      | tag: <tag>     | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| ...(I believe in you) | tag: <tag>     | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `0.5-py38-<tag>`      | tag: <tag>     | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.5-py39-<tag>`      | tag: <tag>     | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.5-py310-<tag>`     | tag: <tag>     | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.5-py311-<tag>`     | tag: <tag>     | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.5-py312-<tag>`     | tag: <tag>     | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py38-<tag>`      | tag: <tag>     | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py39-<tag>`      | tag: <tag>     | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py310-<tag>`     | tag: <tag>     | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py311-<tag>`     | tag: <tag>     | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.4-py312-<tag>`     | tag: <tag>     | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| `0.3-py38-<tag>`      | tag: <tag>     | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
+| ...(I believe in you) | tag: <tag>     | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm64/v8`, `arm/v7`, `arm/v6` |
 
 
 > Where `<tag>` refers to the chosen git tag from this repository.
