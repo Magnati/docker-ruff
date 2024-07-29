@@ -167,7 +167,7 @@ jobs:
       - name: Build
         uses: cytopia/shell-command-retry-action@v0.1.6
         with:
-          retries: 10
+          retries: 3
           pause: 5
           command: |
             make build NAME=${{ matrix.name }} VERSION="${{ matrix.version }}" FLAVOUR=${{ matrix.flavour }} FILE=${{ matrix.file }} ARCH=${{ matrix.arch }} TAG=${{ steps.tag.outputs.docker-tag }}
