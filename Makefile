@@ -32,7 +32,7 @@ DIR        = Dockerfiles
 
 FILE = Dockerfile
 
-# Building from master branch: Tag == 'latest'
+# Building from main branch: Tag == 'latest'
 ifeq ($(strip $(TAG)),latest)
 	ifeq ($(strip $(VERSION)),latest)
 		DOCKER_TAG = latest-$(FILE)
@@ -142,7 +142,7 @@ _test-run:
 	@echo "------------------------------------------------------------"
 	@echo "- Testing pep8 standard"
 	@echo "------------------------------------------------------------"
-	@if ! docker run --rm --platform $(ARCH) -v $(CURRENT_DIR)/tests:/data $(IMAGE):$(DOCKER_TAG) check . ; then \
+	@if ! docker run --rm --platform $(ARCH) -v $(CURRENT_DIR)/tests:/data $(IMAGE):$(DOCKER_TAG) check test.py; then \
 		echo "Failed"; \
 		exit 1; \
 	fi; \

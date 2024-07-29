@@ -53,12 +53,12 @@ jobs:
         run: |
           echo "matrix=$( echo '${{ env.MATRIX }}' | jq -M -c )" >> $GITHUB_OUTPUT
 
-      - name: "[Set-Output] Matrix 'Refs' (master branch and latest tag)"
+      - name: "[Set-Output] Matrix 'Refs' (main branch and latest tag)"
         id: set-refs
         uses: cytopia/git-ref-matrix-action@v0.1.13
         with:
-          repository_default_branch: master
-          branches: master
+          repository_default_branch: main
+          branches: main
           num_latest_tags: 0
         if: github.event_name == 'schedule'
 

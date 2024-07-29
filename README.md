@@ -40,7 +40,7 @@
 > [yamlfmt][yfmt-git-lnk] **•**
 > [yamllint][ylint-git-lnk]
 
-View **[Dockerfiles](https://github.com/Magnati/docker-ruff/blob/master/Dockerfiles/)** on GitHub.
+View **[Dockerfiles](https://github.com/Magnati/docker-ruff/blob/main/Dockerfiles/)** on GitHub.
 
 **Available Pylint major versions:** `2`, `3`
 
@@ -66,18 +66,18 @@ The following Docker image tags are rolling releases and are built and updated e
 
 | Docker Tag | Git Ref   | ruff         | python | Available Architectures                                          |
 |------------|-----------|--------------|--------|------------------------------------------------------------------|
-| `5-py38`   | master    | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py39`   | master    | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py310`  | master    | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py311`  | master    | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `5-py312`  | master    | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py38`   | master    | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py39`   | master    | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py310`  | master    | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py311`  | master    | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `4-py312`  | master    | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| `3-py38`   | master    | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
-| ...        | master    | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `5-py38`   | main    | **`v0.5.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `5-py39`   | main    | **`v0.5.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `5-py310`  | main    | **`v0.5.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `5-py311`  | main    | **`v0.5.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `5-py312`  | main    | **`v0.5.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `4-py38`   | main    | **`v0.4.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `4-py39`   | main    | **`v0.4.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `4-py310`  | main    | **`v0.4.x`** | `3.10` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `4-py311`  | main    | **`v0.4.x`** | `3.11` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `4-py312`  | main    | **`v0.4.x`** | `3.12` | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| `3-py38`   | main    | **`v0.3.x`** | `3.8`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
+| ...        | main    | **`v0.3.x`** | `3.9`  | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`, `ppc64le`, `s390x` |
 
 #### Point in time releases
 
