@@ -1,0 +1,26 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0  # Use the ref you want to point at (only immutable rev's like tags; not latest, not main, etc.)
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-added-large-files
+        args: [ '--maxkb=250' ]
+      - id: requirements-txt-fixer
+      - id: check-json
+      - id: check-toml
+      - id: check-xml
+      - id: check-yaml
+      - id: mixed-line-ending
+      - id: no-commit-to-branch
+        args: [ '--branch', 'master', '--branch', 'main' ]
+      - id: detect-aws-credentials
+        args: [ "--allow-missing-credentials" ]
+      - id: detect-private-key
+      - id: check-executables-have-shebangs
+      - id: check-shebang-scripts-are-executable
+  - repo: https://github.com/gitleaks/gitleaks  # scan for tokens, pw and other credentials
+    rev: v8.18.4  # Use the ref you want to point at (only immutable rev's like tags; not latest, not main, etc.)
+    hooks:
+      - id: gitleaks-docker
+        entry: -u root:root zricethezav/gitleaks protect --verbose --redact --staged
