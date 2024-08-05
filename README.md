@@ -61,7 +61,7 @@ The image is built weekly against multiple stable versions and pushed to Dockerh
 [![](https://img.shields.io/docker/pulls/magnati/ruff.svg)](https://hub.docker.com/r/magnati/ruff)
 [![Docker](https://badgen.net/badge/icon/:latest?icon=docker&label=magnati/ruff)](https://hub.docker.com/r/magnati/ruff)
 
-#### Rolling releaess
+#### Rolling releases
 
 The following Docker image tags are rolling releases and are built and updated every sunday night.
 
@@ -109,6 +109,20 @@ the root of your project where your `setup.cfg` or `tox.ini` config file is.
 
 ```bash
 docker run --rm -v $(pwd):/data Magnati/docker-ruff .
+```
+
+## :construction_worker: pre-commit hooks
+
+Add this to your `.pre-commit-config.yaml` to use the provided ruff images with [pre-commit](https://pre-commit.com/).
+
+```yaml
+-   repo: https://github.com/Magnati/docker-ruff
+    rev: 0.1  # Use the ref you want to point at
+    hooks:
+    -   id: ruff5-py312
+        language: docker_image
+        type: [ python ]
+        entry: magnati/ruff:0.5-py312 check <root-path>
 ```
 
 ## Related [#awesome-ci](https://github.com/topics/awesome-ci) projects
