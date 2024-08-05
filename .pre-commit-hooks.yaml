@@ -1,0 +1,63 @@
+- id: ruff3-py310
+  name: ruff v0.3 python 3.10
+  language: docker_image
+  require_serial: true
+  types_or: [ python, pyi ]
+  entry: magnati/ruff:0.3-py310
+  minimum_pre_commit_version: '2.9.2'
+- id: ruff3-py311
+  name: ruff v0.3 python 3.11
+  language: docker_image
+  require_serial: true
+  types_or: [ python, pyi ]
+  entry: magnati/ruff:0.3-py311
+  minimum_pre_commit_version: '2.9.2'
+- id: ruff3-py312
+  name: ruff v0.3 python 3.12
+  language: docker_image
+  require_serial: true
+  types_or: [ python, pyi ]
+  entry: magnati/ruff:0.3-py312
+  minimum_pre_commit_version: '2.9.2'
+- id: ruff4-py310
+  name: ruff v0.4 python 3.10
+  language: docker_image
+  require_serial: true
+  types_or: [ python, pyi ]
+  entry: magnati/ruff:0.4-py310
+  minimum_pre_commit_version: '2.9.2'
+- id: ruff4-py311
+  name: ruff v0.4 python 3.11
+  language: docker_image
+  require_serial: true
+  types_or: [ python, pyi ]
+  entry: magnati/ruff:0.4-py311
+  minimum_pre_commit_version: '2.9.2'
+- id: ruff4-py312
+  name: ruff v0.4 python 3.12
+  language: docker_image
+  require_serial: true
+  types_or: [ python, pyi ]
+  entry: magnati/ruff:0.4-py312
+  minimum_pre_commit_version: '2.9.2'
+- id: ruff5-py310
+  name: ruff v0.5 python 3.10
+  language: docker_image
+  require_serial: true
+  types_or: [ python, pyi ]
+  entry: magnati/ruff:0.5-py310
+  minimum_pre_commit_version: '2.9.2'
+- id: ruff5-py311
+  name: ruff v0.5 python 3.11
+  language: docker_image
+  require_serial: true
+  types_or: [ python, pyi ]
+  entry: magnati/ruff:0.5-py311
+  minimum_pre_commit_version: '2.9.2'
+- id: ruff5-py312
+  name: ruff v0.5 python 3.12
+  language: docker_image
+  require_serial: true
+  types_or: [ python, pyi ]
+  entry: magnati/ruff:0.5-py312
+  minimum_pre_commit_version: '2.9.2'
